@@ -1,5 +1,5 @@
 
-set date_str [clock format [clock seconds] -format "%y%m%d%H"]
+set date_str [clock format [clock seconds] -format "%y%m%d%H%M"]
 set new_value [format {x"%s"} $date_str]
 puts "Generated version string: $new_value"
 
